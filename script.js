@@ -1,9 +1,13 @@
-var css = document.querySelector("h3");
-var color1 = document.querySelector("#color1");
-var color2 = document.querySelector("#color2");
-var body = document.querySelector("body");
-var random = document.querySelector("#random");
-var copy = document.querySelector("#copy");
+var _ = require("lodash")
+
+let array = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log('answer:', _.without(array, 3));
+const css = document.querySelector("h3");
+const color1 = document.querySelector("#color1");
+const color2 = document.querySelector("#color2");
+const body = document.querySelector("body");
+const random = document.querySelector("#random");
+const copy = document.querySelector("#copy");
 
 color1.value = "#ff0000";
 color2.value = "#ffff00";
